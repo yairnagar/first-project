@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47f77b77e8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">   
+    <title>JUST TO-DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headersite">
+        <h1 id="title">JUST TO-DO</h1>
+    </div>
+    <div class="centersite">
+        <div class="inp-area">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button" id="cleartxt">Clear</button>
+                </div>
+                <input type="text" class="form-control" placeholder="I have to.." aria-label="" aria-describedby="basic-addon1" id="inptxt">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button" id="cleardate">Clear</button>
+                </div>
+                <input type="date" class="form-control"  aria-label="" aria-describedby="basic-addon1" style="color: gray;" id="inpdate">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button" id="cleartime">Clear</button>
+                </div>
+                <input type="time" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" id="inptime" style="color: gray;">
+              </div>
+        </div>
+        <div class="btn-area">
+            <button type="button" class="btn btn-outline-dark" id="addbtn" style="width: 180px;">Add Task</button>
+        </div>
+    </div>
+    <div class="bottomsite">
+    </div>
+    <script src="script.js"></script>
+
+
+    <span class="glyphicon glyphicon-remove"></span>
+    
+</body>
+</html>
